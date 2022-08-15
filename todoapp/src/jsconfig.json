@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "rootDir": "src",
+      "outDir": "build",
+      "experimentalDecorators": true, // 👈️ must be enabled
+      "emitDecoratorMetadata": true,
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
